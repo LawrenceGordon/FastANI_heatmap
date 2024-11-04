@@ -7,7 +7,6 @@ This code assumes everything has a pairwise comparison, but an optional line can
 
 The color break here is automatically determined by seaborn clustermap.
 
-Example figure from the R repository below with *Staphylococcus schleiferi* isolates. The python code gives similar results:
+Example figure from the Python program showing some *Toxoplasma gondii* strain comparisons.
 
-<img width="997" alt="heatmap" src="https://user-images.githubusercontent.com/43999021/133120697-10be7952-e8ca-4d4e-a300-3421d73e0127.png">
-
+![testpy2](https://github.com/user-attachments/assets/7ff14bb7-c09a-451d-90c1-d7d3807b775e)
