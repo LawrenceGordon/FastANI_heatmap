@@ -1,5 +1,5 @@
 # FastANI_heatmap
-This repository contains Python code for building a heatmap and histogram with the output of FastANI.
+This repository contains Python code for building a heatmap and cladogram with the output of FastANI.
 
 the Python code here can be run directly on the FastANI output file: https://github.com/ParBLiSS/FastANI
 
