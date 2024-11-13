@@ -37,7 +37,7 @@ clustermap = sns.clustermap(
     cbar_pos=(0.02, 0.9, 0.03, 0.15)  # Colorbar position
 )
 
-clustermap.figure.suptitle('Heatmap with Cladogram Based on Percent Identity Matrix', y=1.05)
+clustermap.fig.suptitle('Heatmap with Cladogram Based on Percent Identity Matrix', y=1.05)
 
 plt.savefig("testpy2.jpg", bbox_inches="tight")
 
