@@ -3,7 +3,7 @@ This repository contains Python code for building a heatmap and cladogram with t
 
 The Python code here can be run directly on the FastANI output file: https://github.com/ParBLiSS/FastANI
 First, create a .txt file containing the paths to all the genomes to be compared, then run FastANI as below:
-`fastANI --ql input.txt --rl input.txt -o output.txt`
+```fastANI --ql input.txt --rl input.txt -o output.txt```
 
 This code assumes everything has a pairwise comparison, but an optional line can be added at line 17 to say `data.fillna(X, inplace=True)` to fill with whatver value X you want.
 A placeholder name (testpy2.jpg) can also be changed to rename the output file. The main python script is run as `./fastANI_heatmap.py`.
